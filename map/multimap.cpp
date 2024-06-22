@@ -4,7 +4,7 @@
 
 
 // multimap-> multi keys not unique and sorted keys
-//If new key value pair is added which has same key the mapped value is overwritten with new value
+//If new key value pair is added which has same key already present in map , new entry is still created for same key
 
 void printMap(const std::multimap<std::string,std::string>& mapData)
 {
