@@ -3,7 +3,7 @@
 #include <string>
 
 
-// unordered_multimap-> multi keys not unique and sorted keys
+// unordered_multimap-> multi keys not unique and not sorted keys
 //If new key value pair is added which has same key the mapped value is overwritten with new value
 
 void printMap(const std::unordered_multimap<std::string,std::string>& mapData)
